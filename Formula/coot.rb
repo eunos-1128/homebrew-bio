@@ -114,6 +114,7 @@ class Coot < Formula
       --with-fftw-prefix=#{fftw2_prefix}
       --with-backward
       --with-libdw
+      --with-sound
       BOOST_PYTHON_LIB=#{boost_python_lib}
       PYTHON=#{python3}
     ]
